@@ -134,9 +134,9 @@ l2mid = l2.getProfile().mid
 l3mid = l3.getProfile().mid
 l4mid = l4.getProfile().mid
 l5mid = l5.getProfile().mid
-Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,k1mid,k2mid,k3mid,k4mid,k5mid,k6mid,k7mid,k8mid,k9mid,w1mid,w2mid,w3mid,w4mid,w5mid,w6mid,w7mid,w8mid,w9mid,l1mid,l2mid,l3mid,l4mid,l5mid,"u1f41296217e740650e0448b96851a3e2"]
-admsa = "u1f41296217e740650e0448b96851a3e2"
-admin = "u1f41296217e740650e0448b96851a3e2"
+Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,k1mid,k2mid,k3mid,k4mid,k5mid,k6mid,k7mid,k8mid,k9mid,w1mid,w2mid,w3mid,w4mid,w5mid,w6mid,w7mid,w8mid,w9mid,l1mid,l2mid,l3mid,l4mid,l5mid,"u29c6532cc49a120f101a3c2c0ab4556f"]
+admsa = "u29c6532cc49a120f101a3c2c0ab4556f"
+admin = "u29c6532cc49a120f101a3c2c0ab4556f"
 
 wait = {
     'contact':False,
