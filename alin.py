@@ -105,7 +105,7 @@ helo=""
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
-Bnid = ki2.getProfile().mid
+Bmid = ki2.getProfile().mid
 Cmid = ki3.getProfile().mid
 
 Bots = [mid,Amid,Bmid,Cmid,"u29c6532cc49a120f101a3c2c0ab4556f"]
