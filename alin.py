@@ -3737,7 +3737,7 @@ def bot(op):
                 cl.sendText(msg.to,"Selamat Datang Di Grup " + str(ginfo.name))
                 cl.sendText(msg.to,"Owner Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName )
 		
-if op.type == 17:
+        if op.type == 17:
             if op.param2 in Bots:
                 return
             ginfo = cl.getGroup(op.param1)
