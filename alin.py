@@ -3736,6 +3736,20 @@ def bot(op):
                 ginfo = cl.getGroup(msg.to)
                 cl.sendText(msg.to,"Selamat Datang Di Grup " + str(ginfo.name))
                 cl.sendText(msg.to,"Owner Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName )
+		
+if op.type == 17:
+            if op.param2 in Bots:
+                return
+            ginfo = cl.getGroup(op.param1)
+            ki.sendText(op.param1, "Selamat Datang Di Grup " + str(ginfo.name))
+            ki.sendText(op.param1, "Owner Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName)
+            print "MEMBER HAS JOIN THE GROUP"
+        if op.type == 15:
+            if op.param2 in Bots:
+                return
+            ki.sendText(op.param1, "Good Bye Kaka")
+            print "MEMBER HAS LEFT THE GROUP"
+		
 #----------------------------------------------- 
 #-----------------------------------------------
         if op.type == 19:
