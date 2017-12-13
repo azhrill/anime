@@ -209,9 +209,9 @@ def bot(op):
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
 	if op.type == 26:
-             msg = op.message
-                 if "@"+an.getProfile().displayName in msg.text:
-                        if wait["tag"] == True:
+            msg = op.message
+            if "@"+an.getProfile().displayName in msg.text:
+            if wait["tag"] == True:
                            tanya = msg.text.replace("@"+an.getProfile().displayName,"")
                            jawab = (an.getProfile().displayName+"Azhril sedang off.. apa tag mlulu.. kangen pm aja langsung👇👇👇")
                            jawaban = (jawab)
