@@ -218,7 +218,7 @@ def bot(op):
                       an.sendText(msg.to,jawaban)
 	if op.type == 26:
             msg = op.message
-             if wait["respondpc] == True:
+             if wait["respondpc"] == True:
                 if msg.toType == 0:
                     cl.sendChatChecked(msg.from_,msg.id)                              
 		    cl.sendText(msg.to,"Ada apa.. kamu kangen yaa")
