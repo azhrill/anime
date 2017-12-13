@@ -268,7 +268,7 @@ def bot(op):
                         if "@"+an.getProfile().displayName in msg.text:
                         if wait["tag"] == True:
                            tanya = msg.text.replace("@"+an.getProfile().displayName,"")
-                           jawab = (an.getProfile().displayName+" sedang sibuk/Off \nPenting Chat aja 👇👇👇")
+                           jawab = (an.getProfile().displayName+"Azhril sedang off.. apa tag mlulu.. kangen pm aja langsung👇👇👇")
                            jawaban = (jawab)
                            an.sendText(msg.to,jawaban)
 			
