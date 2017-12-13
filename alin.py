@@ -212,11 +212,16 @@ def bot(op):
             msg = op.message
             if "@"+an.getProfile().displayName in msg.text:
                 if wait["tag"] == True:
-                           tanya = msg.text.replace("@"+an.getProfile().displayName,"")
-                           jawab = (an.getProfile().displayName+"Azhril sedang off.. apa tag mlulu.. kangen pm aja langsung👇👇👇")
-                           jawaban = (jawab)
+                      tanya = msg.text.replace("@"+an.getProfile().displayName,"")
+                       jawab = (an.getProfile().displayName+"Azhril sedang off.. apa tag mlulu.. kangen pm aja langsung👇👇👇")
+                         jawaban = (jawab)
                            an.sendText(msg.to,jawaban)
-	
+	if op.type == 26:
+            msg = op.message
+             if wait["respondpc] == True:
+                if msg.toType == 0:
+                    cl.sendChatChecked(msg.from_,msg.id)                              
+		    cl.sendText(msg.to,"Ada apa.. kamu kangen yaa")
         if op.type == 26:
             msg = op.message
             if msg.toType == 0:
