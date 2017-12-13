@@ -213,9 +213,9 @@ def bot(op):
             if "@"+an.getProfile().displayName in msg.text:
                 if wait["tag"] == True:
                       tanya = msg.text.replace("@"+an.getProfile().displayName,"")
-                       jawab = (an.getProfile().displayName+"Azhril sedang off.. apa tag mlulu.. kangen pm aja langsung👇👇👇")
-                         jawaban = (jawab)
-                           an.sendText(msg.to,jawaban)
+                      jawab = (an.getProfile().displayName+"Azhril sedang off.. apa tag mlulu.. kangen pm aja langsung👇👇👇")
+                      jawaban = (jawab)
+                      an.sendText(msg.to,jawaban)
 	if op.type == 26:
             msg = op.message
              if wait["respondpc] == True:
