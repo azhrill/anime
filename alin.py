@@ -95,7 +95,7 @@ helpMessage ="""||=====  F O R   U S E R  =====||
 
                ✯==== Creator ====✯
 	
-  Http://line.me/ti/p/~muhmursalind
+  Azhril ft princess
 
                     ATTENTION!!!!
   Creator nya sok tau bahasa inggris :V
@@ -262,6 +262,16 @@ def bot(op):
                                           cl.sendText(msg.to,"Negative, Err0r Detected")
                                           wait2["ricoinvite"] = False
                                           break
+					
+			if op.type == 26:
+                            msg = op.message
+                        if "@"+an.getProfile().displayName in msg.text:
+                        if wait["tag"] == True:
+                           tanya = msg.text.replace("@"+an.getProfile().displayName,"")
+                           jawab = (an.getProfile().displayName+" sedang sibuk/Off \nPenting Chat aja 👇👇👇")
+                           jawaban = (jawab)
+                           an.sendText(msg.to,jawaban)
+			
             if msg.contentType == 13:
                 if wait["wblack"] == True:
                     if msg.contentMetadata["mid"] in wait["commentBlack"]:
