@@ -208,6 +208,15 @@ def bot(op):
         if op.type == 24:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
+	if op.type == 26:
+             msg = op.message
+                 if "@"+an.getProfile().displayName in msg.text:
+                        if wait["tag"] == True:
+                           tanya = msg.text.replace("@"+an.getProfile().displayName,"")
+                           jawab = (an.getProfile().displayName+"Azhril sedang off.. apa tag mlulu.. kangen pm aja langsung👇👇👇")
+                           jawaban = (jawab)
+                           an.sendText(msg.to,jawaban)
+	
         if op.type == 26:
             msg = op.message
             if msg.toType == 0:
@@ -263,14 +272,6 @@ def bot(op):
                                           wait2["ricoinvite"] = False
                                           break
 					
-			if op.type == 26:
-                            msg = op.message
-                        if "@"+an.getProfile().displayName in msg.text:
-                        if wait["tag"] == True:
-                           tanya = msg.text.replace("@"+an.getProfile().displayName,"")
-                           jawab = (an.getProfile().displayName+"Azhril sedang off.. apa tag mlulu.. kangen pm aja langsung👇👇👇")
-                           jawaban = (jawab)
-                           an.sendText(msg.to,jawaban)
 			
             if msg.contentType == 13:
                 if wait["wblack"] == True:
